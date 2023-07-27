@@ -42,7 +42,7 @@ class AdjacencyList:
                 vertex.newRank = 0
                 '''
 
-    def print(self, numOfPowerIterations):
+def print(self, numOfPowerIterations):
         for vertex in self.vertices.values():
             if numOfPowerIterations > 1: # means we can use "newRank" because has been upgraded from 0
                 print(f"{vertex.name} {vertex.newRank:.2f}")
