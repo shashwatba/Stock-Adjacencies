@@ -62,6 +62,14 @@ class Graph:
                 if v1 != v2 and self.similarity_score(v1, v2):
                     self.add_edge(v1.name, v2.name)
 
+    def find_and_display_vertex(self, ticker_name):
+        for vertex in self.adjacency_list.values():
+            if vertex.ticker_name == ticker_name:
+                print(f"Vertex: {vertex.name} ({vertex.ticker_name})")
+                for similar_vertex in vertex.similar_stocks:
+                    score = self.similarity_score(vertex, similar_vertex)
+                    print(
+                        f"  Similar vertex: {similar_vertex.name} ({similar_vertex.ticker_name}), similarity score: {score}")
 
 
 # Initialize the graph
@@ -72,11 +80,16 @@ df = pd.read_csv('Fortune1000_Stock_Info.csv')
 
 # Iterate over each row in the DataFrame
 for index, row in df.iterrows():
-    vertex = Vertex(row['Company'], row['Ticker'], row['Sector'], row['Market Cap'],
-                    row['num. of employees'], row['revenue'], row['profit'])
+    vertex = Vertex(row['Company'], row['Ticker'], row['Sector'], float(row['Market Cap']),
+                    int(row['num. of employees']), float(row['revenue']), float(row['profit']))
     graph.add_vertex(vertex)
 
 # Create edges based on similarity score
 graph.create_edges()
 
 
+
+ticker_name = input("Enter a ticker name: ")
+
+# Find the vertex with that ticker name and display its similar stocks
+graph.find_and_display_vertex(ticker_name)
