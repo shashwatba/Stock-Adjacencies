@@ -1,31 +1,41 @@
-#from AdjacencyList import *
+from AdjacencyList import *
+
 import numpy as np
 import pandas as pd
 import yfinance as yahooFinance
 
 '''
-Let's start by defining a similarity score that ranges from 0 to 1, with 1 being the most similar:
+Note: All the data you need should be in columns A-G, anything after can be disregarded but don't delete it because we need it in the file to satisfy the 18,000 data points
 
-Similarity Score = Industry Similarity Score * 0.5 + Market Cap Similarity Score * 0.3 + Dividend Similarity Score * 0.2
+Similarity Score =(Sector Similarity Score * 0.2) + (Market Cap Similarity Score * 0.2) + (Employee Similarity Score * 0.2) + (Revenue Similarity Score * 0.2) + (Profit Similarity Score * 0.2)
 
-Each individual score also ranges from 0 to 1. Here's how you might calculate each one:
+Each individual score ranges from 0 to 1. Here's how you calculate each one:
 
-Industry Similarity Score: This one's simple. If the two stocks are in the same industry, the score is 1. If not, the score is 0.
+1. Sector Similarity Score: If the two stocks are in the same "Sector", the score is 1. If not, the score is 0.
 
-Market Cap Similarity Score: First, you might define what counts as a "similar" market cap. For instance, you might say 
-that two stocks are similar if their market caps are within 10% of each other. To calculate the score:
+2. Market Cap Similarity Score: For instance, you might say that two stocks are similar if their market caps are within 10% of each other. To calculate the score:
+    - If the market caps are within 10% of each other, the score is 1.
+    - If one stock's market cap is more than double the other's, the score is 0.
+    - For anything in between, calculate the score as `1 - (Absolute Difference in Market Cap / Larger Market Cap)`.
 
-If the market caps are within 20% of each other, the score is 1.
-If one stock's market cap is more than double the other's, the score is 0.
-For anything in between, you could calculate the score as 1 - (Absolute Difference in Market Cap / Larger Market Cap).
-Dividend Similarity Score: Again, you'll need to define what counts as a "similar" dividend yield. For instance, you might say 
-that two stocks are similar if their dividend yields are within 1% of each other. To calculate the score:
+3. Employee Similarity Score: You might define two stocks as similar if their number of employees is within 10% of each other:
+    - If the numbers of employees are within 10% of each other, the score is 1.
+    - If one company's number of employees is more than double the other's, the score is 0.
+    - For anything in between, calculate the score as `1 - (Absolute Difference in Number of Employees / Company with More Employees)`.
 
-If the dividend yields are within 20% of each other, the score is 1.
-If one stock's dividend yield is more than double the other's, the score is 0.
-For anything in between, you could calculate the score as 1 - (Absolute Difference in Dividend Yield / Larger Dividend Yield).
-Then, you can add up the scores for each criterion, weighted according to their importance in your analysis, to get the total 
-Similarity Score. If the Similarity Score is above a certain threshold, you might consider the stocks to be "similar".
+4. Revenue Similarity Score: Define two stocks as similar if their revenues are within 10% of each other:
+    - If the revenues are within 10% of each other, the score is 1.
+    - If one company's revenue is more than double the other's, the score is 0.
+    - For anything in between, calculate the score as `1 - (Absolute Difference in Revenue / Company with Higher Revenue)`.
+
+5. Profit Similarity Score: Define two stocks as similar if their profits are within 10% of each other:
+    - If the profits are within 10% of each other, the score is 1.
+    - If one company's profit is more than double the other's, the score is 0.
+    - For anything in between, calculate the score as `1 - (Absolute Difference in Profit / Company with Higher Profit)`.
+
+Then, you can add up the scores for each criterion, weighted according to their importance in your analysis, to get the total Similarity Score.
+If the Similarity Score >= 0.5, you might consider the stocks to be "similar". (We can make this number smaller or larger later on but for now I feel like this is good)
+
 '''
 
 GetFacebookInformation = yahooFinance.Ticker("META")
