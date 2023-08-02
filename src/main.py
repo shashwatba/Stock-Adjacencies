@@ -2,7 +2,6 @@ from AdjacencyList import *
 
 import numpy as np
 import pandas as pd
-import yfinance as yahooFinance
 
 '''
 Note: All the data you need should be in columns A-G, anything after can be disregarded but don't delete it because we need it in the file to satisfy the 18,000 data points
@@ -37,8 +36,3 @@ Then, you can add up the scores for each criterion, weighted according to their 
 If the Similarity Score >= 0.5, you might consider the stocks to be "similar". (We can make this number smaller or larger later on but for now I feel like this is good)
 
 '''
-
-GetFacebookInformation = yahooFinance.Ticker("META")
-
-# whole python dictionary is printed here
-print(GetFacebookInformation.info)
