@@ -23,7 +23,7 @@ class Graph:
 
     def add_vertex(self, vertex):
         if isinstance(vertex, Vertex) and vertex.name not in self.adjacency_list:
-            self.adjacency_list[vertex.name] = vertex
+            self.adjacency_list[vertex.ticker_name] = vertex
             return True
         else:
             return False
@@ -71,4 +71,4 @@ class Graph:
         for v1 in self.adjacency_list.values():
             for v2 in self.adjacency_list.values():
                 if v1 != v2 and self.similarity_score(v1, v2)>0.50:
-                    self.add_edge(v1.name, v2.name)
+                    self.add_edge(v1.ticker_name, v2.ticker_name)
