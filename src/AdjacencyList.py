@@ -13,6 +13,9 @@ class Vertex:
         self.profit = profit
         self.similar_stocks = []
 
+    def __str__(self):
+        return f"{self.name} ({self.ticker_name})"
+
 class Graph:
     def __init__(self):
         self.adjacency_list = {}

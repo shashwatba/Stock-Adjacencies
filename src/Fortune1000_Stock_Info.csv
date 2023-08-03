@@ -70,15 +70,15 @@ Best Buy,BBY,Retailing,17106,81375,51761,2454,Richfield,MN,no,no,yes,yes,66,Cori
 Charter Communications,CHTR,Telecommunications,89514,93700,51682,4654,Stamford,CT,no,no,no,yes,64,Thomas M. Rutledge,69,-5,www.charter.com
 Sysco,SYY,Wholesalers,44508,57710,51297.8,524.2,Houston,TX,no,no,no,yes,60,Kevin P. Hourican,70,-10,www.sysco.com
 Merck,MRK,Health Care,218166,67500,51216,13049,Kenilworth,NJ,no,no,no,yes,65,Robert Davis,71,-6,https://www.merck.com
-New York Life Insurance,,Financials,89074,14344,51198.5,277.1,New York,NY,no,no,no,yes,67,Craig DeSanto,72,-5,www.newyorklife.com
+New York Life Insurance,dsfsafa,Financials,89074,14344,51198.5,277.1,New York,NY,no,no,no,yes,67,Craig DeSanto,72,-5,www.newyorklife.com
 Caterpillar,CAT,Industrials,95735,107700,50971,6489,Deerfield,IL,no,no,no,yes,78,D. James Umpleby III,73,5,www.caterpillar.com
 Cisco Systems,CSCO,Technology,182327,79500,49818,10591,San Jose,CA,no,no,no,yes,63,Charles H. Robbins,74,-11,www.cisco.com
 TJX,TJX,Retailing,73403,340000,48550,3282.8,Framingham,MA,no,no,no,yes,97,Ernie L. Herrman,75,22,www.tjx.com
-Publix Super Markets,,Food & Drug Stores,78645,232000,48393.9,4412.2,Lakeland,FL,no,no,no,yes,69,Randall T. Jones Sr.,76,-7,www.publix.com
+Publix Super Markets,dfsfs,Food & Drug Stores,78645,232000,48393.9,4412.2,Lakeland,FL,no,no,no,yes,69,Randall T. Jones Sr.,76,-7,www.publix.com
 ConocoPhillips,COP,Energy,114444,9900,48349,8079,Houston,TX,no,no,no,yes,156,Ryan M. Lance,77,79,www.conocophillips.com
-Liberty Mutual Insurance Group,,Financials,193000,45000,48200,3068,Boston,MA,no,no,no,yes,71,David H. Long,78,-7,www.libertymutual.com
+Liberty Mutual Insurance Group,dfsfs,Financials,193000,45000,48200,3068,Boston,MA,no,no,no,yes,71,David H. Long,78,-7,www.libertymutual.com
 Progressive,PGR,Financials,65485,49077,47702,3350.9,Mayfield Village,OH,no,no,yes,yes,74,Susan Patricia Griffith,79,-5,www.progressive.com
-Nationwide,,Financials,134233,24134,47376,1617.2,Columbus,OH,no,no,no,yes,76,Kirt A. Walker,80,-4,www.nationwide.com
+Nationwide,dfsfs,Financials,134233,24134,47376,1617.2,Columbus,OH,no,no,no,yes,76,Kirt A. Walker,80,-4,www.nationwide.com
 Tyson Foods,TSN,"Food, Beverages & Tobacco",30189,137000,47049,3047,Springdale,AR,no,no,no,yes,73,Donnie D. King,81,-8,www.tysonfoods.com
 Bristol-Myers Squibb,BMY,Health Care,155720,32200,46385,6994,New York,NY,no,no,no,yes,75,Giovanni Caforio,82,-7,www.bms.com
 Nike,NKE,Apparel,171840,73300,44538,5727,Beaverton,OR,no,no,no,yes,85,John J. Donahoe II,83,2,www.nike.com
@@ -88,17 +88,17 @@ Abbott Laboratories,ABT,Health Care,192481,113000,43075,7071,Abbott Park,IL,no,n
 StoneX Group,SNEX,Financials,1699,3242,42534.2,116.3,New York,NY,no,no,no,yes,58,Sean M. O&#039;Connor,87,-29,www.stonex.com
 Plains GP Holdings,PAGP,Energy,2131,4100,42078,60,Houston,TX,no,no,no,yes,127,Wilfred C.W. Chiang,88,39,www.plains.com
 Enterprise Products Partners,EPD,Energy,55122,6911,40806.9,4637.7,Houston,TX,no,no,no,yes,105,A. James Teague/W. Randall Fowler,89,16,www.enterpriseproducts.com
-TIAA,,Financials,198321,15065,40526.4,4060.7,New York,NY,no,no,yes,yes,79,Thasunda Brown Duckett,90,-11,www.tiaa.org
+TIAA,dfsfs,Financials,198321,15065,40526.4,4060.7,New York,NY,no,no,yes,yes,79,Thasunda Brown Duckett,90,-11,www.tiaa.org
 Oracle,ORCL,Technology,192514,132000,40479,13746,Austin,TX,no,no,yes,yes,80,Safra A. Catz,91,-11,www.oracle.com
 Thermo Fisher Scientific,TMO,Technology,202645,129000,39211,7725,Waltham,MA,no,no,no,yes,95,Marc Casper,92,3,https://www.thermofisher.com
 Coca-Cola,KO,"Food, Beverages & Tobacco",271069,79000,38655,9771,Atlanta,GA,no,no,no,yes,93,James R. Quincey,93,0,www.coca-colacompany.com
 General Dynamics,GD,Aerospace & Defense,59618,103100,38469,3257,Reston,VA,no,no,yes,yes,84,Phebe N. Novakovic,94,-10,www.gd.com
-CHS,,"Food, Beverages & Tobacco",98745,9941,38448,554,Inver Grove Heights,MN,no,no,no,yes,103,Jay D. Debertin,95,8,www.chsinc.com
-USAA,,Financials,96843,37335,37469.6,3300,San Antonio,TX,no,no,no,yes,87,Wayne Peacock,96,-9,www.usaa.com
-Northwestern Mutual,,Financials,92894,7585,36751.2,977.8,Milwaukee,WI,no,no,no,yes,90,John E. Schlifske,97,-7,www.northwesternmutual.com
+CHS,CHS,"Food, Beverages & Tobacco",98745,9941,38448,554,Inver Grove Heights,MN,no,no,no,yes,103,Jay D. Debertin,95,8,www.chsinc.com
+USAA,USAA,Financials,96843,37335,37469.6,3300,San Antonio,TX,no,no,no,yes,87,Wayne Peacock,96,-9,www.usaa.com
+Northwestern Mutual,NM,Financials,92894,7585,36751.2,977.8,Milwaukee,WI,no,no,no,yes,90,John E. Schlifske,97,-7,www.northwesternmutual.com
 Nucor,NUE,Materials,31183,28800,36483.9,6827.5,Charlotte,NC,no,no,no,yes,149,Leon J. Topalian,98,51,www.nucor.com
 Exelon,EXC,Energy,42832,31518,36347,1706,Chicago,IL,no,no,no,yes,92,Christopher M. Crane,99,-7,www.exeloncorp.com
-Massachusetts Mutual Life Insurance,,Financials,94939,10052,35899.5,319.3,Springfield,MA,no,no,no,yes,123,Roger W. Crandall,100,23,www.massmutual.com
+Massachusetts Mutual Life Insurance,MULI,Financials,94939,10052,35899.5,319.3,Springfield,MA,no,no,no,yes,123,Roger W. Crandall,100,23,www.massmutual.com
 Northrop Grumman,NOC,Aerospace & Defense,71099,88000,35667,7005,Falls Church,VA,no,no,yes,yes,86,Kathy J. Warden,101,-15,www.northropgrumman.com
 3M,MMM,Chemicals,75190,95000,35355,5921,St. Paul,MN,no,no,no,yes,96,Michael F. Roman,102,-6,www.3m.com
 Travelers,TRV,Financials,37998,30492,34816,3662,New York,NY,no,no,no,yes,98,Alan D. Schnitzer,103,-5,www.travelers.com
@@ -230,7 +230,7 @@ Estée Lauder,EL,Household Products,97672.1,53320,16215,2870,New York,NY,no,no,n
 Bank of New York Mellon,BK,Financials,40056.7,49100,16158,3759,New York,NY,no,no,no,yes,180,Robin Vince,229,-49,https://www.bnymellon.com
 Laboratory Corp. of America,LH,Health Care,24625.8,71725,16120.9,2377.3,Burlington,NC,no,no,no,yes,218,Adam H. Schechter,230,-12,https://www.labcorp.com
 Regeneron Pharmaceuticals,REGN,Health Care,80226,10368,16071.7,8075.3,Tarrytown,NY,no,yes,no,yes,354,Leonard Schleifer,231,123,https://www.regeneron.com
-Land O'Lakes,,"Food, Beverages & Tobacco",293949,9000,15916.4,287.4,Arden Hills,MN,no,no,yes,yes,219,Beth E. Ford,232,-13,https://www.landolakesinc.com
+Land O'Lakes,LOL,"Food, Beverages & Tobacco",293949,9000,15916.4,287.4,Arden Hills,MN,no,no,yes,yes,219,Beth E. Ford,232,-13,https://www.landolakesinc.com
 Cheniere Energy,LNG,Energy,35272.3,1550,15864,-2343,Houston,TX,no,no,no,no,328,Jack A. Fusco,233,95,https://www.cheniere.com
 Southwest Airlines,LUV,Transportation,27129.3,55093,15790,977,Dallas,TX,no,no,no,yes,336,Robert E. Jordan,234,102,https://www.southwest.com
 Adobe,ADBE,Technology,215280.5,25988,15785,4822,San Jose,CA,no,no,no,yes,234,Shantanu Narayen,235,-1,https://www.adobe.com
@@ -245,11 +245,11 @@ Edison International,EIX,Energy,26693.8,13003,14905,759,Rosemead,CA,no,no,no,yes
 BorgWarner,BWA,Motor Vehicles & Parts,9335,49300,14838,537,Auburn Hills,MI,no,no,no,yes,295,Frederic B. Lissalde,244,51,https://www.borgwarner.com
 Nordstrom,JWN,Retailing,4321.3,72000,14789,178,Seattle,WA,no,no,no,yes,289,Erik B. Nordstrom,245,44,https://www.nordstrom.com
 Loews,L,Financials,15971.3,10340,14657,1578,New York,NY,no,no,no,yes,239,James S. Tisch,246,-7,https://www.loews.com
-Guardian Life Ins. Co. of America,,Financials,92422,9150,14647.8,288.8,New York,NY,no,no,no,yes,227,Andrew J. McMahon,247,-20,https://www.guardianlife.com
+Guardian Life Ins. Co. of America,GLICA,Financials,92422,9150,14647.8,288.8,New York,NY,no,no,no,yes,227,Andrew J. McMahon,247,-20,https://www.guardianlife.com
 Pioneer Natural Resources,PXD,Energy,60728.3,1932,14643,2118,Irving,TX,no,no,no,yes,428,Scott D. Sheffield,248,180,https://www.pxd.com
 AutoZone,AZO,Retailing,40582.6,85050,14629.6,2170.3,Memphis,TN,no,no,no,yes,238,William C. Rhodes III,249,-11,https://www.autozone.com
 Lam Research,LRCX,Technology,74996.7,14100,14626.2,3908.5,Fremont,CA,no,no,no,yes,304,Timothy M. Archer,250,54,https://www.lamresearch.com
-American Family Insurance Group,,Financials,92945,13590,14611.9,734.5,Madison,WI,no,no,no,yes,232,William Westrate,251,-19,https://www.amfam.com
+American Family Insurance Group,AFIG,Financials,92945,13590,14611.9,734.5,Madison,WI,no,no,no,yes,232,William Westrate,251,-19,https://www.amfam.com
 Illinois Tool Works,ITW,Industrials,65311.9,45000,14455,2694,Glenview,IL,no,no,no,yes,240,E. Scott Santi,252,-12,https://www.itw.com
 Parker-Hannifin,PH,Industrials,36456.8,54640,14347.6,1746.1,Cleveland,OH,no,no,no,yes,223,Thomas L. Williams,253,-30,https://www.parker.com
 Otis Worldwide,OTIS,Industrials,32700.9,70000,14298,1246,Farmington,CT,no,no,yes,yes,236,Judith F. Marks,254,-18,https://www.otis.com
@@ -262,9 +262,9 @@ AECOM,ACM,Engineering & Construction,10856.5,51000,14112.4,173.2,Dallas,TX,no,no
 Reliance Steel & Aluminum,RS,Materials,11313.5,13950,14093.3,1413,Los Angeles,CA,no,no,no,yes,343,James D. Hoffman,261,82,https://www.rsac.com
 Jacobs Engineering Group,J,Engineering & Construction,17807.4,53500,14092.6,477,Dallas,TX,no,no,no,yes,225,Steven J. Demetriou,262,-37,https://www.jacobs.com
 Corning,GLW,Industrials,31212.8,61200,14082,1906,Corning,NY,no,no,no,yes,277,Wendell P. Weeks,263,14,https://www.corning.com
-Farmers Insurance Exchange,,Financials,99334,11787,14055,-366.8,Woodland Hills,CA,no,no,no,no,256,Jeffrey J. Dailey,264,-8,https://www.farmers.com
+Farmers Insurance Exchange,dfsfs,Financials,99334,11787,14055,-366.8,Woodland Hills,CA,no,no,no,no,256,Jeffrey J. Dailey,264,-8,https://www.farmers.com
 Qurate Retail,QRTEA,Retailing,1807.4,26745,14044,340,Englewood,CO,no,no,no,yes,216,David L. Rawlinson II,265,-49,https://www.qurateretail.com
-Pacific Life,,Financials,19867,3861,13936,1102,Newport Beach,CA,no,no,no,yes,303,Darryl Button,266,37,https://www.pacificlife.com
+Pacific Life,dfsfs,Financials,19867,3861,13936,1102,Newport Beach,CA,no,no,no,yes,303,Darryl Button,266,37,https://www.pacificlife.com
 PulteGroup,PHM,Engineering & Construction,10115.7,6182,13926.9,1946.3,Atlanta,GA,no,no,no,yes,284,Ryan R. Marshall,267,17,https://www.pultegroupinc.com
 Fidelity National Information Services,FIS,Business Services,61215.1,65000,13877,417,Jacksonville,FL,no,no,no,yes,241,Gary A. Norcross,268,-27,https://www.fisglobal.com
 IQVIA Holdings,IQV,Health Care,44140.8,79000,13874,966,Durham,NC,no,no,no,yes,275,Ari Bousbib,269,6,https://www.iqvia.com
@@ -301,7 +301,7 @@ Henry Schein,HSIC,Health Care,8952,21600,12401,631.2,Melville,NY,no,no,no,yes,29
 Sonic Automotive,SAH,Retailing,1728.8,10200,12396.4,348.9,Charlotte,NC,no,no,no,yes,308,David Bruton Smith,300,8,https://www.sonicautomotive.com
 eBay,EBAY,Technology,33641.9,10800,12394,13608,San Jose,CA,no,no,no,yes,276,Jamie Iannone,301,-25,https://www.ebay.com
 Textron,TXT,Aerospace & Defense,16090.6,33000,12382,746,Providence,RI,no,no,no,yes,265,Scott C. Donnelly,302,-37,https://www.textron.com
-Jones Financial (Edward Jones),,Financials,92939,50000,12373,1605,Des Peres,MO,no,no,yes,yes,295,Penny Pennington,303,-8,https://www.edwardjones.com
+Jones Financial (Edward Jones),dfsfs,Financials,92939,50000,12373,1605,Des Peres,MO,no,no,yes,yes,295,Penny Pennington,303,-8,https://www.edwardjones.com
 Community Health Systems,CYH,Health Care,1598.6,58500,12368,230,Franklin,TN,no,no,no,yes,259,Tim L. Hingtgen,304,-45,https://www.chs.net
 Mosaic,MOS,Chemicals,24492.6,12525,12357.4,1630.6,Tampa,FL,no,no,no,yes,346,James C. O&#039;Rourke,305,41,https://www.mosaicco.com
 Thor Industries,THO,Motor Vehicles & Parts,4273,31000,12317.4,659.9,Elkhart,IN,no,no,no,yes,368,Robert Martin,306,62,https://www.thorindustries.com
@@ -311,7 +311,7 @@ Devon Energy,DVN,Energy,39274.1,1600,12206,2813,Oklahoma City,OK,yes,no,no,yes, 
 Warner Bros. Discovery,WBD,Media,12700.5,11000,12191,1006,New York,NY,no,no,no,yes,290,David M. Zaslav,310,-20,https://https://wbd.com
 J.B. Hunt Transport Services,JBHT,Transportation,21052.9,33045,12168.3,760.8,Lowell,AR,no,no,no,yes,315,John N. Roberts III,311,4,https://www.jbhunt.com
 Alcoa,AA,Materials,16603.4,12200,12152,429,Pittsburgh,PA,no,no,no,yes,330,Roy C. Harvey,312,18,https://www.alcoa.com
-Peter Kiewit Sons',,Engineering & Construction,243433,28800,12149,753,Omaha,NE,no,no,no,yes,243,Rick Lanoha,313,-70,https://www.kiewit.com
+Peter Kiewit Sons',dfsfs,Engineering & Construction,243433,28800,12149,753,Omaha,NE,no,no,no,yes,243,Rick Lanoha,313,-70,https://www.kiewit.com
 Aramark,ARMK,Business Services,9655.5,248300,12096,-90.8,Philadelphia,PA,no,no,no,no,235,John J. Zillmer,314,-79,https://www.aramark.com
 Vistra,VST,Energy,10434.7,5060,12077,-1274,Irving,TX,no,no,no,no,274,James A. Burke,315,-41,https://www.vistracorp.com
 State Street,STT,Financials,31891.8,38784,12030,2693,Boston,MA,no,no,no,yes,252,Ronald P. O&#039;Hanley,316,-64,https://www.statestreet.com
@@ -322,7 +322,7 @@ Westlake,WLK,Chemicals,15785.4,14550,11778,2015,Houston,TX,no,no,no,yes,388,Albe
 Entergy,ETR,Energy,23760.4,12369,11742.9,1118.5,New Orleans,LA,no,no,no,yes,300,Andrew S. Marsh,321,-21,https://www.entergy.com
 International Flavors & Fragrances,IFF,Chemicals,33455.6,24000,11656,270,New York,NY,yes,no,no,yes, ,Franklin K. Clyburn Jr.,322,0,https://www.iff.com
 DaVita,DVA,Health Care,10892.5,69000,11618.8,978.5,Denver,CO,no,no,no,yes,271,Javier J. Rodriguez,323,-52,https://www.davita.com
-Mutual of Omaha Insurance,,Financials,124952,5739,11459.3,579,Omaha,NE,no,no,no,yes,282,James T. Blackledge,324,-42,https://www.mutualofomaha.com
+Mutual of Omaha Insurance,dfsfs,Financials,124952,5739,11459.3,579,Omaha,NE,no,no,no,yes,282,James T. Blackledge,324,-42,https://www.mutualofomaha.com
 Assurant,AIZ,Financials,10493.1,15600,11410,1372.4,New York,NY,no,no,no,yes,302,Keith W. Demmings,325,-23,https://www.assurant.com
 Liberty Media,LSXMA,Media,15239.1,6886,11400,398,Englewood,CO,no,no,no,yes,326,Gregory B. Maffei,326,0,https://www.libertymedia.com
 Hormel Foods,HRL,"Food, Beverages & Tobacco",28089.2,20000,11386.2,908.8,Austin,MN,no,no,no,yes,317,James P. Snee,327,-10,https://www.hormelfoods.com
@@ -337,7 +337,7 @@ Caesars Entertainment,CZR,"Hotels, Restaurants & Leisure",16564.6,49000,11110,-1
 Equitable Holdings,EQH,Financials,12041.2,10000,11036,-439,New York,NY,no,no,no,no,244,Mark Pearson,336,-92,https://www.equitableholdings.com
 Advance Auto Parts,AAP,Retailing,12644.8,54500,10998,616.1,Raleigh,NC,no,no,no,yes,301,Thomas R. Greco,337,-36,https://www.advanceautoparts.com
 Biogen,BIIB,Health Care,30950.4,9610,10981.7,1556.1,Cambridge,MA,no,no,no,yes,228,Michel Vounatsos,338,-110,https://www.biogen.com
-Auto-Owners Insurance,,Financials,892344,6441,10980.2,1318.4,Lansing,MI,no,no,no,yes,341,Jeffrey S. Tagsold,339,2,https://www.auto-owners.com
+Auto-Owners Insurance,dfsfs,Financials,892344,6441,10980.2,1318.4,Lansing,MI,no,no,no,yes,341,Jeffrey S. Tagsold,339,2,https://www.auto-owners.com
 Booking Holdings,BKNG,Technology,96022.7,20199,10958,1165,Norwalk,CT,no,no,no,yes,424,Glenn D. Fogel,340,84,https://www.bookingholdings.com
 Amphenol,APH,Technology,45130.1,90000,10876.3,1590.8,Wallingford,CT,no,no,no,yes,349,R. Adam Norwitt,341,8,https://www.amphenol.com
 Quest Diagnostics,DGX,Health Care,16348.6,44500,10788,1995,Secaucus,NJ,no,no,no,yes,324,James E. Davis,342,-18,https://www.questdiagnostics.com
@@ -349,7 +349,7 @@ Williams,WMB,Energy,40670.4,4783,10627,1517,Tulsa,OK,no,no,no,yes,379,Alan S. Ar
 Newell Brands,NWL,Household Products,8902.4,32000,10589,572,Atlanta,GA,no,no,no,yes,325,Ravichandra K. Saligram,348,-23,https://www.newellbrands.com
 Eastman Chemical,EMN,Chemicals,14450.1,14000,10476,857,Kingsport,TN,no,no,no,yes,355,Mark J. Costa,349,6,https://www.eastman.com
 Air Products & Chemicals,APD,Chemicals,55409.4,20750,10323,2099.1,Allentown,PA,no,no,no,yes,340,Seifi Ghasemi,350,-10,https://www.airproducts.com
-Thrivent Financial for Lutherans,,Financials,53525,3256,10312.7,2530.2,Minneapolis,MN,no,no,yes,yes,369,Teresa J. Rasmussen,351,18,https://www.thrivent.com
+Thrivent Financial for Lutherans,dfsfs,Financials,53525,3256,10312.7,2530.2,Minneapolis,MN,no,no,yes,yes,369,Teresa J. Rasmussen,351,18,https://www.thrivent.com
 Molson Coors Beverage,TAP,"Food, Beverages & Tobacco",11631.8,16300,10279.7,1005.7,Chicago,IL,no,no,no,yes,314,Gavin D.K. Hattersley,352,-38,https://www.molsoncoors.com
 Interpublic Group,IPG,Business Services,13965.9,55600,10240.7,952.8,New York,NY,no,no,no,yes,334,Daryl Lee,353,-19,https://www.interpublic.com
 Weyerhaeuser,WY,Materials,28315,9214,10201,2607,Seattle,WA,no,no,no,yes,387,Devin W. Stockfish,354,33,https://www.weyerhaeuser.com
@@ -366,11 +366,11 @@ MGM Resorts International,MGM,"Hotels, Restaurants & Leisure",18257.9,60500,9680
 Ryder System,R,Transportation,4055.4,42800,9663,519,Miami,FL,no,no,no,yes,357,Robert E. Sanchez,365,-8,https://www.ryder.com
 Intuit,INTU,Technology,135987.6,17350,9633,2062,Mountain View,CA,no,no,no,yes,380,Sasan K. Goodarzi,366,14,https://www.intuit.com
 Cincinnati Financial,CINF,Financials,21813.3,5166,9629.7,2945.6,Fairfield,OH,no,no,no,yes,386,Steven J. Johnston,367,19,https://www.cinfin.com
-Erie Insurance Group,,Financials,83849,5805,9619.7,1130.1,Erie,PA,no,no,no,yes,347,Timothy G. NeCastro,368,-21,https://www.erieinsurance.com
+Erie Insurance Group,dfsfs,Financials,83849,5805,9619.7,1130.1,Erie,PA,no,no,no,yes,347,Timothy G. NeCastro,368,-21,https://www.erieinsurance.com
 Univar Solutions,UNVR,Wholesalers,5459.8,9450,9535.5,460.6,Downers Grove,IL,no,no,no,yes,362,David C. Jukes,369,-7,https://www.univarsolutions.com
 Huntington Ingalls Industries,HII,Aerospace & Defense,7991,44000,9524,544,Newport News,VA,no,no,no,yes,327,Christopher D. Kastner,370,-43,https://www.huntingtoningalls.com
 W.R. Berkley,WRB,Financials,17658.8,7681,9455.5,1022.5,Greenwich,CT,no,no,no,yes,372,W. Robert Berkley Jr.,371,1,https://www.berkley.com
-Western & Southern Financial Group,,Financials,45678,2538,9441.7,361.2,Cincinnati,OH,no,no,no,yes,374,John F. Barrett,372,2,https://www.westernsouthern.com
+Western & Southern Financial Group,dfsfs,Financials,45678,2538,9441.7,361.2,Cincinnati,OH,no,no,no,yes,374,John F. Barrett,372,2,https://www.westernsouthern.com
 Insight Enterprises,NSIT,Technology,3745.1,11624,9436.1,219.3,Tempe,AZ,no,no,yes,yes,360,Joyce A. Mullen,373,-13,https://www.insight.com
 News Corp.,NWSA,Media,13127.7,24000,9358,330,New York,NY,no,no,no,yes,337,Robert J. Thomson,374,-37,https://www.newscorp.com
 American Tower,AMT,Financials,114527.4,6378,9356.9,2567.7,Boston,MA,no,no,no,yes,375,Thomas A. Bartlett,375,0,https://www.americantower.com
@@ -397,7 +397,7 @@ Jackson Financial,JXN,Financials,3895.1,3150,8848,3183,Lansing,MI,yes,no,yes,yes
 Activision Blizzard,ATVI,Media,62559.7,9800,8803,2699,Santa Monica,CA,no,no,no,yes,373,Robert A. Kotick,396,-23,https://www.activisionblizzard.com
 Toll Brothers,TOL,Engineering & Construction,5515.4,5100,8790.4,833.6,Fort Washington,PA,no,no,no,yes,411,Douglas C. Yearley Jr.,397,14,https://www.tollbrothers.com
 Carlyle Group,CG,Financials,9539,1850,8782.1,2974.7,Washington,DC,yes,no,no,yes, ,William Conway Jr.,398,0,https://www.carlyle.com
-Graybar Electric,,Wholesalers,73745,8800,8767.3,262.4,St. Louis,MO,no,no,yes,yes,399,Kathleen M. Mazzarella,399,0,https://www.graybar.com
+Graybar Electric,dfsfs,Wholesalers,73745,8800,8767.3,262.4,St. Louis,MO,no,no,yes,yes,399,Kathleen M. Mazzarella,399,0,https://www.graybar.com
 Ovintiv,OVV,Energy,13987.5,1713,8658,1416,Denver,CO,no,no,no,yes,458,Brendan M. McCracken,400,58,https://www.ovintiv.com
 UFP Industries,UFPI,Materials,4471,15000,8636.1,535.6,Grand Rapids,MI,yes,no,no,yes, ,Matthew Missad,401,0,https://www.ufpi.com
 Ulta Beauty,ULTA,Retailing,20837.8,28500,8630.9,985.8,Bolingbrook,IL,no,no,no,yes,451,David C. Kimbell,402,49,https://www.ulta.com
@@ -416,7 +416,7 @@ CenterPoint Energy,CNP,Energy,19285.8,9418,8352,1486,Houston,TX,no,no,no,yes,342
 Fifth Third Bancorp,FITB,Financials,29511.3,19112,8329,2770,Cincinnati,OH,no,no,no,yes,358,Timothy N. Spence,415,-57,https://www.53.com
 WEC Energy Group,WEC,Energy,31483.5,6938,8316,1300.3,Milwaukee,WI,no,no,no,yes,400,Scott J. Lauber,416,-16,https://www.wecenergygroup.com
 S&P Global,SPGI,Business Services,142343.5,22850,8297,3024,New York,NY,no,no,no,yes,393,Douglas L. Peterson,417,-24,https://www.spglobal.com
-FM Global,,Financials,837472,5560,8274.6,2842.4,Johnston,RI,no,no,no,yes,423,Malcolm C. Roberts,418,5,https://www.fmglobal.com
+FM Global,dfsfs,Financials,837472,5560,8274.6,2842.4,Johnston,RI,no,no,no,yes,423,Malcolm C. Roberts,418,5,https://www.fmglobal.com
 Polaris,PII,Transportation,6264.1,16000,8252,493.9,Medina,MN,no,no,no,yes,407,Michael T. Speetzen,419,-12,https://www.polaris.com
 Williams-Sonoma,WSM,Retailing,10376,16600,8245.9,1126.3,San Francisco,CA,no,no,yes,yes,425,Laura J. Alber,420,5,https://www.williams-sonomainc.com
 Autoliv,ALV,Motor Vehicles & Parts,6691.1,58176,8230,435,Auburn Hills,MI,no,no,no,yes,392,Mikael Bratt,421,-29,https://www.autoliv.com
@@ -462,7 +462,7 @@ KBR,KBR,Engineering & Construction,7634.9,28000,7339,18,Houston,TX,no,no,no,yes,
 TravelCenters of America,TA,Retailing,637.5,16540,7336.8,58.5,Westlake,OH,yes,no,no,yes, ,Jonathan M. Pertchik,461,0,https://www.ta-petro.com
 Hertz Global Holdings,HTZ,Retailing,9508.9,23000,7336,366,Estero,FL,yes,no,no,yes, ,Stephen M. Scherr,462,0,https://www.hertz.com
 Analog Devices,ADI,Technology,86441.2,24700,7318.3,1390.4,Wilmington,MA,no,no,no,yes,481,Vincent T. Roche,463,18,https://www.analog.com
-Securian Financial Group,,Financials,38484,6941,7317.4,311.5,St. Paul,MN,no,no,no,yes,421,Christopher M. Hilger,464,-43,https://www.securian.com
+Securian Financial Group,dfsfs,Financials,38484,6941,7317.4,311.5,St. Paul,MN,no,no,no,yes,421,Christopher M. Hilger,464,-43,https://www.securian.com
 Darden Restaurants,DRI,"Hotels, Restaurants & Leisure",16980.9,156883,7196.1,629.3,Orlando,FL,no,no,no,yes,377,Ricardo Cardenas,465,-88,https://www.darden.com
 NCR,NCR,Technology,5474.7,38000,7156,97,Atlanta,GA,no,no,no,yes,446,Michael D. Hayford,466,-20,https://www.ncr.com
 Graphic Packaging Holding,GPK,Materials,6154.4,25000,7156,204,Atlanta,GA,no,no,no,yes,435,Michael P. Doss,466,-31,https://www.graphicpkg.com
@@ -537,7 +537,7 @@ Chesapeake Energy,CHK,Energy,11135.9,1300,5809,,Oklahoma City,OK,no,no,no,no, ,D
 Petco Health and Wellness,WOOF,Retailing,5930.2,28495,5807.1,164.4,San Diego,CA,no,no,no,yes, ,Ronald Coughlin Jr.,536,0,https://www.petco.com
 Kemper,KMPR,Financials,3606,10300,5793,-120.5,Chicago,IL,no,no,no,no, ,Joseph P. Lacher Jr.,537,0,https://www.kemper.com
 Hilton Worldwide Holdings,HLT,"Hotels, Restaurants & Leisure",42356.6,142000,5788,410,McLean,VA,no,no,no,yes, ,Christopher J. Nassetta,538,0,https://www.hilton.com
-Cerner,,Health Care,27492.2,25150,5764.8,555.6,North Kansas City,MO,no,no,no,yes, ,David T. Feinberg,539,0,https://www.cerner.com
+Cerner,dfsfs,Health Care,27492.2,25150,5764.8,555.6,North Kansas City,MO,no,no,no,yes, ,David T. Feinberg,539,0,https://www.cerner.com
 Levi Strauss,LEVI,Apparel,5740,16600,5763.9,553.5,San Francisco,CA,no,no,no,yes, ,Charles Bergh,540,0,https://www.levistrauss.com
 Tapestry,TPR,Apparel,9807.2,14250,5746.3,834.2,New York,NY,no,no,yes,yes, ,Joanne C. Crevoiserat,541,0,https://www.tapestry.com
 NetApp,NTAP,Technology,18470.5,11000,5744,730,San Jose,CA,no,no,no,yes, ,George Kurian,542,0,https://www.netapp.com
@@ -557,7 +557,7 @@ Schneider National,SNDR,Transportation,4551.6,17050,5608.7,405.4,Green Bay,WI,no
 Sonoco Products,SON,Materials,6099.1,20500,5590.4,-85.5,Hartsville,SC,no,no,no,no, ,R. Howard Coker,556,0,https://www.sonoco.com
 Concentrix,CNXC,Technology,8605.2,290000,5587,405.6,Fremont,CA,no,no,no,yes, ,Christopher A. Caldwell,557,0,https://www.concentrix.com
 Evergy,EVRG,Energy,15512.7,4930,5586.7,879.7,Kansas City,MO,no,no,no,yes, ,David A. Campbell,558,0,https://http://investors.evergy.com
-Cornerstone Building Brands,,Materials,3088.7,21700,5583.1,665.9,Cary,NC,no,no,yes,yes, ,Rose Lee,559,0,https://www.cornerstonebuildingbrands.com
+Cornerstone Building Brands,dfsfs,Materials,3088.7,21700,5583.1,665.9,Cary,NC,no,no,yes,yes, ,Rose Lee,559,0,https://www.cornerstonebuildingbrands.com
 Coca-Cola Consolidated,COKE,"Food, Beverages & Tobacco",4657.3,15050,5562.7,189.6,Charlotte,NC,no,no,no,yes, ,J. Frank Harrison III,560,0,https://www.cokeconsolidated.com
 Greif,GEF,Materials,3134,16000,5556.1,390.7,Delaware,OH,no,no,no,yes, ,Ole Rosgaard,561,0,https://www.greif.com
 Vulcan Materials,VMC,Materials,24412.7,11912,5552.2,670.8,Birmingham,AL,no,no,no,yes, ,J. Thomas Hill,562,0,https://www.vulcanmaterials.com
@@ -595,12 +595,12 @@ Simon Property Group,SPG,Financials,43197.8,2850,5116.8,2249.6,Indianapolis,IN,n
 Globe Life,GL,Financials,9977.3,3222,5112.9,745,McKinney,TX,no,no,no,yes, ,#REF!,594,0,https://www.globelifeinsurance.com
 Skyworks Solutions,SWKS,Technology,21547.5,10945,5109.1,1498.3,Irvine,CA,no,no,no,yes, ,Liam K. Griffin,595,0,https://www.skyworksinc.com
 Endeavor Group Holdings,EDR,Media,20363.1,7700,5077.7,-296.6,Beverly Hills,CA,no,no,no,no, ,Ariel Emanuel,596,0,https://www.endeavorco.com
-Twitter,,Technology,30976.8,7500,5077.5,-221.4,San Francisco,CA,no,no,no,no, ,Elon Musk,597,0,https://www.twitter.com
+Twitter,dfsfs,Technology,30976.8,7500,5077.5,-221.4,San Francisco,CA,no,no,no,no, ,Elon Musk,597,0,https://www.twitter.com
 Leggett & Platt,LEG,Household Products,4659,20300,5072.6,402.4,Carthage,MO,no,no,no,yes, ,J. Mitchell Dolloff,598,0,https://www.leggett.com
 Western Union,WU,Business Services,7374.7,10500,5070.8,805.8,Denver,CO,no,no,no,yes, ,Devin B. McGranahan,599,0,https://www.westernunion.com
 PerkinElmer,PKI,Health Care,15984,16700,5067.2,943.2,Waltham,MA,no,no,no,yes, ,Prahlad Singh,600,0,https://www.perkinelmer.com
 SS&C Technologies Holdings,SSNC,Technology,19235.1,24900,5051,800,Windsor,CT,no,yes,no,yes, ,William C. Stone,601,0,https://www.ssctech.com
-CUNA Mutual Group,,Financials,34345,4100,5049.5,622.3,Madison,WI,no,no,no,yes, ,Robert N. Trunzo,602,0,https://www.cunamutual.com
+CUNA Mutual Group,dfsfs,Financials,34345,4100,5049.5,622.3,Madison,WI,no,no,no,yes, ,Robert N. Trunzo,602,0,https://www.cunamutual.com
 FMC,FMC,Chemicals,16563.8,6400,5045.2,736.5,Philadelphia,PA,no,no,no,yes, ,Mark A. Douglas,603,0,https://www.fmc.com
 Carlisle,CSL,Materials,12804.5,11250,5030,421.7,Scottsdale,AZ,no,no,no,yes, ,D. Christian Koch,604,0,https://www.carlisle.com
 American Eagle Outfitters,AEO,Retailing,2836.6,24000,5010.8,419.6,Pittsburgh,PA,no,no,no,yes, ,Jay L. Schottenstein,605,0,https://www.aeo-inc.com
@@ -621,7 +621,7 @@ NiSource,NI,Energy,12891.2,7307,4899.6,584.9,Merrillville,IN,no,no,no,yes, ,Lloy
 OneMain Holdings,OMF,Financials,6042.8,8800,4895,1314,Evansville,IN,no,no,no,yes, ,Douglas H. Shulman,620,0,https://www.omf.com
 DoorDash,DASH,Technology,40830.3,8600,4888,-468,San Francisco,CA,no,yes,no,no, ,Tony Xu,621,0,https://https://ir.doordash.com
 Avient,AVNT,Chemicals,4388.4,8700,4818.8,230.8,Avon Lake,OH,no,no,no,yes, ,Robert M. Patterson,622,0,https://www.avient.com
-Sanderson Farms,,"Food, Beverages & Tobacco",4185.4,17662,4799.7,455.1,Laurel,MS,no,no,no,yes, ,Joe F. Sanderson Jr.,623,0,https://www.sandersonfarms.com
+Sanderson Farms,dfsfs,"Food, Beverages & Tobacco",4185.4,17662,4799.7,455.1,Laurel,MS,no,no,no,yes, ,Joe F. Sanderson Jr.,623,0,https://www.sandersonfarms.com
 TransDigm Group,TDG,Aerospace & Defense,36135.8,13300,4798,680,Cleveland,OH,no,no,no,yes, ,Kevin M. Stein,624,0,https://www.transdigm.com
 Stifel Financial,SF,Financials,7226,8600,4783.1,824.9,St. Louis,MO,no,no,no,yes, ,Ronald J. Kruszewski,625,0,https://www.stifel.com
 JELD-WEN Holding,JELD,Materials,1826,24700,4771.7,168.8,Charlotte,NC,no,no,no,yes, ,Kevin C. Lilly,626,0,https://www.jeld-wen.com
@@ -645,10 +645,10 @@ Covetrus,CVET,Health Care,2319.3,4873,4575,-54,Portland,ME,no,no,no,no, ,Benjami
 Crestwood Equity Partners,CEQP,Energy,2931.5,645,4569,-78.5,Houston,TX,no,yes,no,no, ,Robert G Phillips,644,0,https://www.crestwoodlp.com
 Louisiana-Pacific,LPX,Materials,4071,4800,4553,1377,Nashville,TN,no,no,no,yes, ,W. Bradley Southern,645,0,https://www.lpcorp.com
 Urban Outfitters,URBN,Retailing,2421.4,16330,4548.8,310.6,Philadelphia,PA,no,yes,no,yes, ,Richard A. Hayne,646,0,https://www.urbn.com
-Penn Mutual Life Insurance,,Financials,43432,3194,4545.6,522.9,Horsham,PA,no,no,no,yes, ,David M. O&#039;Malley,647,0,https://www.pennmutual.com
+Penn Mutual Life Insurance,dfsfs,Financials,43432,3194,4545.6,522.9,Horsham,PA,no,no,no,yes, ,David M. O&#039;Malley,647,0,https://www.pennmutual.com
 Amerco,UHAL,Transportation,11704.7,22052,4542,610.9,Reno,NV,no,no,no,yes, ,Edward J. Shoen,648,0,https://www.amerco.com
 TriNet Group,TNET,Business Services,6482.5,2800,4540,338,Dublin,CA,no,no,no,yes, ,Burton M. Goldfield,649,0,https://www.trinet.com
-Sentry Insurance Group,,Financials,35231,4064,4526.2,739.9,Stevens Point,WI,no,no,no,yes, ,Peter G. McPartland,650,0,https://www.sentry.com
+Sentry Insurance Group,dfsfs,Financials,35231,4064,4526.2,739.9,Stevens Point,WI,no,no,no,yes, ,Peter G. McPartland,650,0,https://www.sentry.com
 Illumina,ILMN,Technology,54855.8,10775,4526,762,San Diego,CA,no,no,no,yes, ,Francis A. deSouza,651,0,https://www.illumina.com
 Iron Mountain,IRM,Business Services,16059.5,25000,4491.5,450.2,Boston,MA,no,no,no,yes, ,William L. Meaney,652,0,https://www.ironmountain.com
 LCI Industries,LCII,Motor Vehicles & Parts,2624.5,13900,4472.7,287.7,Elkhart,IN,no,no,no,yes, ,Jason D. Lippert,653,0,https://www.lci1.com
@@ -657,8 +657,8 @@ PennyMac Financial Services,PFSI,Financials,2368,7208,4450.2,1003.5,Westlake Vil
 Digital Realty Trust,DLR,Financials,40337.7,3030,4427.9,1709.3,Austin,TX,no,no,no,yes, ,A. William Stein,656,0,https://www.digitalrealty.com
 TreeHouse Foods,THS,"Food, Beverages & Tobacco",1800,10000,4405.5,-12.5,Oak Brook,IL,no,no,no,no, ,Steven T. Oakland,657,0,https://www.treehousefoods.com
 Ralph Lauren,RL,Apparel,8073.2,16200,4400.8,-121.1,New York,NY,no,no,no,no, ,Patrice Louvet,658,0,https://www.ralphlauren.com
-Mattress Firm Group,,Retailing,35234,8900,4392.9,-165.1,Houston,TX,no,no,no,no, ,John W. Eck,659,0,https://www.mattressfirm.com
-American National Group,,Financials,5084.1,4545,4391.8,699.3,Galveston,TX,no,no,no,yes, ,James E. Pozzi,660,0,https://www.americannational.com
+Mattress Firm Group,dfsfs,Retailing,35234,8900,4392.9,-165.1,Houston,TX,no,no,no,no, ,John W. Eck,659,0,https://www.mattressfirm.com
+American National Group,dfsfs,Financials,5084.1,4545,4391.8,699.3,Galveston,TX,no,no,no,yes, ,James E. Pozzi,660,0,https://www.americannational.com
 Autodesk,ADSK,Technology,46580,12600,4386.4,497,San Rafael,CA,no,no,no,yes, ,Andrew Anagnost,661,0,https://www.autodesk.com
 Domino's Pizza,DPZ,"Hotels, Restaurants & Leisure",14665.9,10450,4357.4,510.5,Ann Arbor,MI,no,no,no,yes, ,Russell J. Weiner,662,0,https://www.dominos.com
 ASGN,ASGN,Business Services,6022.2,3900,4333.8,409.9,Glen Allen,VA,no,no,no,yes, ,Theodore S. Hanson,663,0,https://www.asgn.com
@@ -678,7 +678,7 @@ Lennox International,LII,Industrials,9447.2,11000,4194.1,464,Richardson,TX,no,no
 Service Corp. International,SCI,Business Services,10581.3,20840,4143.1,802.9,Houston,TX,no,no,no,yes, ,Thomas L. Ryan,677,0,https://www.sci-corp.com
 Conduent,CNDT,Business Services,1111.6,60000,4140,-28,Florham Park,NJ,no,no,no,no, ,Clifford A. Skelton,678,0,https://www.conduent.com
 Timken,TKR,Industrials,4539.6,18029,4132.9,369.1,North Canton,OH,no,no,no,yes, ,Richard G. Kyle,679,0,https://www.timken.com
-Domtar,,Materials,1856.2,6100,4132,-27,Fort Mill,SC,no,no,no,no, ,John D. Williams,680,0,https://www.domtar.com
+Domtar,dfsfs,Materials,1856.2,6100,4132,-27,Fort Mill,SC,no,no,no,no, ,John D. Williams,680,0,https://www.domtar.com
 Bloomin' Brands,BLMN,"Hotels, Restaurants & Leisure",1966.6,82000,4122.4,215.6,Tampa,FL,no,no,no,yes, ,David J. Deno,681,0,https://www.bloominbrands.com
 CNO Financial Group,CNO,Financials,2945.7,3350,4122.2,441,Carmel,IN,no,no,no,yes, ,Gary C. Bhojwani,682,0,https://www.cnoinc.com
 Snap,SNAP,Technology,58458.4,5661,4117,-488,Santa Monica,CA,no,yes,no,no, ,Evan Spiegel,683,0,https://www.snap.com
@@ -688,7 +688,7 @@ Paychex,PAYX,Business Services,49268,15000,4056.8,1097.5,Rochester,NY,no,no,no,y
 Atlas Air Worldwide Holdings,AAWW,Transportation,2523.4,4056,4030.8,493.3,Purchase,NY,no,no,no,yes, ,John W. Dietrich,687,0,https://www.atlasairworldwide.com
 Bright Health Group,BHG,Health Care,1213.5,3203,4029.4,-1184.9,Minneapolis,MN,no,no,no,no, ,G. Mike Mikan,688,0,https://www.brighthealthcare.com
 Peloton Interactive,PTON,"Hotels, Restaurants & Leisure",8760.9,8662,4021.8,-189,New York,NY,no,no,no,no, ,Barry McCarthy,689,0,https://www.onepeloton.com
-Country Financial,,Financials,523532,3149,4016.2,419.2,Bloomington,IL,no,no,no,yes, ,Jim Jacobs,690,0,https://www.countryfinancial.com
+Country Financial,dfsfs,Financials,523532,3149,4016.2,419.2,Bloomington,IL,no,no,no,yes, ,Jim Jacobs,690,0,https://www.countryfinancial.com
 Qorvo,QRVO,Technology,13456.4,8750,4015.3,733.6,Greensboro,NC,no,no,no,yes, ,Robert A. Bruggeworth,691,0,https://www.qorvo.com
 Catalent,CTLT,Health Care,13377,17300,3998,585,Somerset,NJ,no,no,no,yes, ,Alessandro Maselli,692,0,https://www.catalent.com
 Mercury General,MCY,Financials,3045.4,4300,3993.4,247.9,Los Angeles,CA,no,no,no,yes, ,Gabriel Tirador,693,0,https://www.mercuryinsurance.com
@@ -708,11 +708,11 @@ Terex,TEX,Industrials,2485.5,8600,3886.8,220.9,Norwalk,CT,no,no,no,yes, ,John L.
 Sally Beauty Holdings,SBH,Retailing,1720.5,29000,3875,239.9,Denton,TX,no,no,yes,yes, ,Denise A. Paulonis,707,0,https://www.sallybeautyholdings.com
 Enovis,ENOV,Industrials,6419.3,16200,3854.3,71.7,Wilmington,DE,no,no,no,yes, ,Matthew L. Trerotola,708,0,https://www.enovis.com
 IAC,IAC,Technology,9001.4,13200,3845.1,597.5,New York,NY,no,no,no,yes, ,Joseph M. Levin,709,0,https://www.iac.com
-Meritor,,Motor Vehicles & Parts,2519.4,9600,3833,199,Troy,MI,no,no,no,yes, ,Chris Villavarayan,710,0,https://www.meritor.com
+Meritor,dfsfs,Motor Vehicles & Parts,2519.4,9600,3833,199,Troy,MI,no,no,no,yes, ,Chris Villavarayan,710,0,https://www.meritor.com
 Ventas,VTR,Financials,24676.2,434,3828,49,Chicago,IL,no,no,yes,yes, ,Debra A. Cafaro,711,0,https://www.ventasreit.com
 GoDaddy,GDDY,Technology,14018.7,6611,3815.7,242.3,Tempe,AZ,no,no,no,yes, ,Aman Bhutani,712,0,https://www.godaddy.com
 Regal Rexnord,RRX,Industrials,10002.1,30000,3810.3,209.9,Beloit,WI,no,no,no,yes, ,Louis V. Pinkham,713,0,https://www.regalrexnord.com
-Puget Energy,,Energy,24143,3185,3805.7,260.8,Bellevue,WA,no,no,yes,yes, ,Mary E. Kipp,714,0,https://www.pugetenergy.com
+Puget Energy,dfsfs,Energy,24143,3185,3805.7,260.8,Bellevue,WA,no,no,yes,yes, ,Mary E. Kipp,714,0,https://www.pugetenergy.com
 Clean Harbors,CLH,Business Services,6073.8,18300,3805.6,203.2,Norwell,MA,no,yes,no,yes, ,Alan S. McKim,715,0,https://www.cleanharbors.com
 Pinnacle West Capital,PNW,Energy,8820,5872,3803.8,618.7,Phoenix,AZ,no,no,no,yes, ,Jeffrey B Guldner,716,0,https://www.pinnaclewest.com
 eXp World Holdings,EXPI,Financials,3149.3,1669,3771.2,81.2,Bellingham,WA,no,yes,no,yes, ,Glenn Sanford,717,0,https://www.expworldholdings.com
@@ -746,7 +746,7 @@ Flowserve,FLS,Industrials,4681.4,16000,3541.1,125.9,Irving,TX,no,no,no,yes, ,R. 
 Charles River Laboratories International,CRL,Health Care,14425.4,19300,3540.2,391,Wilmington,MA,no,no,no,yes, ,James C. Foster,745,0,https://www.criver.com
 A.O. Smith,AOS,Industrials,10032.2,13700,3538.9,487.1,Milwaukee,WI,no,no,no,yes, ,Kevin J. Wheeler,746,0,https://www.aosmith.com
 Rithm Capital,RITM,Financials,5125,12296,3533.1,772.2,New York,NY,no,no,no,yes, ,Michael Nierenberg,747,0,https://www.rithmcap.com
-Medical Mutual of Ohio,,Financials,12345,2834,3514.8,78.3,Cleveland,OH,no,no,no,yes, ,Steven C. Glass,748,0,https://www.medmutual.com
+Medical Mutual of Ohio,dfsfs,Financials,12345,2834,3514.8,78.3,Cleveland,OH,no,no,no,yes, ,Steven C. Glass,748,0,https://www.medmutual.com
 Granite Construction,GVA,Engineering & Construction,1504.7,2600,3501.9,10.1,Watsonville,CA,no,no,no,yes, ,Kyle T. Larkin,749,0,https://www.graniteconstruction.com
 Valmont Industries,VMI,Materials,5083.4,11041,3501.6,195.6,Omaha,NE,no,no,no,yes, ,Stephen G. Kaniewski,750,0,https://www.valmont.com
 Sprague Resources,SRLP,Energy,433.7,757,3498.2,-68.9,Portsmouth,NH,no,no,no,no, ,David C. Glendon,751,0,https://www.spragueenergy.com
@@ -773,7 +773,7 @@ Boyd Gaming,BYD,"Hotels, Restaurants & Leisure",7234,15114,3369.8,463.8,Las Vega
 Plexus,PLXS,Technology,2298.6,19200,3368.9,138.9,Neenah,WI,no,no,no,yes, ,Todd P. Kelsey,772,0,https://www.plexus.com
 ScanSource,SCSC,Wholesalers,890.8,2200,3364.2,10.8,Greenville,SC,no,yes,no,yes, ,Michael L. Baur,773,0,https://www.scansource.com
 Franchise Group,FRG,Retailing,1669.6,11895,3362.7,363.8,Delaware,OH,no,no,no,yes, ,Brian R. Kahn,774,0,https://www.franchisegrp.com
-NLV Financial,,Financials,543636,1157,3350.8,392.1,Montpelier,VT,no,no,no,yes, ,Mehran Assadi,775,0,https://www.nationallife.com
+NLV Financial,dfsfs,Financials,543636,1157,3350.8,392.1,Montpelier,VT,no,no,no,yes, ,Mehran Assadi,775,0,https://www.nationallife.com
 CrossAmerica Partners,CAPL,Energy,826.5,2218,3350.5,21.7,Allentown,PA,no,no,no,yes, ,Charles M. Nifong Jr.,776,0,https://www.crossamericapartners.com
 Mr. Cooper Group,COOP,Financials,3369.4,8200,3344,1454,Coppell,TX,no,no,no,yes, ,Jay Bray,777,0,https://www.mrcoopergroup.com
 Fortinet,FTNT,Technology,39789,10195,3342.2,606.8,Sunnyvale,CA,no,yes,no,yes, ,Ken Xie,778,0,https://www.fortinet.com
@@ -787,7 +787,7 @@ Central Garden & Pet,CENT,Household Products,2286.5,6750,3303.7,151.7,Walnut Cre
 GMS,GMS,Wholesalers,2142.1,5843,3298.8,105.6,Tucker,GA,no,no,no,yes, ,John C. Turner Jr.,786,0,https://www.gms.com
 H.B. Fuller,FUL,Chemicals,3505.2,6500,3278,161.4,St. Paul,MN,no,no,no,yes, ,James J. Owens,787,0,https://www.hbfuller.com
 Middleby,MIDD,Industrials,8961.1,10624,3250.8,488.5,Elgin,IL,no,no,no,yes, ,Timothy J. FitzGerald,788,0,https://www.middleby.com
-Renewable Energy Group,,Energy,3056.2,1196,3244.1,213.8,Ames,IA,no,no,yes,yes, ,Kevin E. Lucke,789,0,https://www.regi.com
+Renewable Energy Group,dfsfs,Energy,3056.2,1196,3244.1,213.8,Ames,IA,no,no,yes,yes, ,Kevin E. Lucke,789,0,https://www.regi.com
 MSC Industrial Direct,MSM,Wholesalers,4758.3,6472,3243.2,216.9,Melville,NY,no,no,no,yes, ,Erik Gershwind,790,0,https://www.mscdirect.com
 Vishay Intertechnology,VSH,Technology,2840.1,22800,3240.5,298,Malvern,PA,no,no,no,yes, ,Gerald Paul,791,0,https://www.vishay.com
 Applied Industrial Technologies,AIT,Wholesalers,3947.9,5947,3235.9,144.8,Cleveland,OH,no,no,no,yes, ,Neil A. Schrimsher,792,0,https://www.applied.com
@@ -813,7 +813,7 @@ Topgolf Callaway Brands,ELY,"Hotels, Restaurants & Leisure",4337.1,24800,3133.4,
 Dycom Industries,DY,Engineering & Construction,2821,15024,3130.5,48.6,Palm Beach Gardens,FL,no,no,no,yes, ,Steven E. Nielsen,812,0,https://www.dycomind.com
 Columbia Sportswear,COLM,Apparel,5840.4,8325,3126.4,354.1,Portland,OR,no,no,no,yes, ,Timothy P. Boyle,813,0,https://www.columbia.com
 Coherent,COHR,Technology,7708.2,22961,3105.9,297.6,Saxonburg,PA,no,no,no,yes, ,Vincent D. Mattera Jr.,814,0,https://www.ii-vi.com
-Change Healthcare,,Health Care,6799.3,15000,3090.4,-112.2,Nashville,TN,no,no,yes,no, ,Heather Cianfrocco (Optum),815,0,https://www.changehealthcare.com
+Change Healthcare,dfsfs,Health Care,6799.3,15000,3090.4,-112.2,Nashville,TN,no,no,yes,no, ,Heather Cianfrocco (Optum),815,0,https://www.changehealthcare.com
 Grocery Outlet Holding,GO,Food & Drug Stores,3148,875,3079.6,62.3,Emeryville,CA,no,no,no,yes, ,Eric J. Lindberg Jr.,816,0,https://www.groceryoutlet.com
 AMC Networks,AMCX,Media,1721.7,1883,3077.6,250.6,New York,NY,no,no,yes,yes, ,Christina Spade,817,0,https://www.amcnetworks.com
 Hyster-Yale Materials Handling,HY,Industrials,561.2,8100,3075.7,-173,Cleveland,OH,no,no,no,no, ,Alfred M. Rankin Jr.,818,0,https://www.hyster-yale.com
@@ -864,7 +864,7 @@ Moog,MOGA,Aerospace & Defense,2814.6,14000,2852,157.2,East Aurora,NY,no,no,no,ye
 Hawaiian Electric Industries,HE,Energy,4630,3623,2850.4,246.2,Honolulu,HI,no,no,no,yes, ,Scott W.H. Seu,863,0,https://www.hei.com
 Five Below,FIVE,Retailing,8825,13150,2848.4,278.8,Philadelphia,PA,no,no,no,yes, ,Joel D. Anderson,864,0,https://www.fivebelow.com
 Twilio,TWLO,Technology,29916.9,7867,2841.8,-949.9,San Francisco,CA,no,yes,no,no, ,Jeff Lawson,865,0,https://www.twilio.com
-Univision Communciations,,Media,12421,187,2841,133.7,New York,NY,no,no,no,yes, ,Wade C. Davis,866,0,https://https://corporate.televisaunivision.com
+Univision Communciations,dfsfs,Media,12421,187,2841,133.7,New York,NY,no,no,no,yes, ,Wade C. Davis,866,0,https://https://corporate.televisaunivision.com
 Annaly Capital Management,NLY,Financials,10281,171,2836.2,2389.9,New York,NY,no,no,no,yes, ,David L. Finkelstein,867,0,https://www.annaly.com
 Fleetcor Technologies,FLT,Business Services,19398.4,9700,2833.7,839.5,Atlanta,GA,no,no,no,yes, ,Ronald F. Clarke,868,0,https://www.fleetcor.com
 West Pharmaceutical Services,WST,Health Care,30508.2,10065,2831.6,661.8,Exton,PA,no,no,no,yes, ,Eric M. Green,869,0,https://www.westpharma.com
@@ -872,13 +872,13 @@ Green Plains,GPRE,Energy,1662.5,859,2827.2,-66,Omaha,NE,no,no,no,no, ,Todd A. Be
 Cracker Barrel Old Country Store,CBRL,"Hotels, Restaurants & Leisure",2757.6,70000,2821.4,254.5,Lebanon,TN,no,no,yes,yes, ,Sandra B. Cochran,871,0,https://www.crackerbarrel.com
 Virtu Financial,VIRT,Financials,3674,973,2811.5,476.9,New York,NY,no,no,no,yes, ,Douglas Cifu,872,0,https://www.virtu.com
 Teleflex,TFX,Health Care,16642.1,14000,2809.6,485.4,Wayne,PA,no,no,no,yes, ,Liam J. Kelly,873,0,https://www.teleflex.com
-Zynga,,Media,10463.5,2952,2800.5,-104.2,San Francisco,CA,no,no,no,no, ,Frank D. Gibeau,874,0,https://www.zynga.com
+Zynga,dfsfs,Media,10463.5,2952,2800.5,-104.2,San Francisco,CA,no,no,no,no, ,Frank D. Gibeau,874,0,https://www.zynga.com
 ATI,ATI,Materials,3350.8,6300,2799.8,-38.2,Pittsburgh,PA,no,no,no,no, ,Robert S. Wetherbee,875,0,https://www.atimaterials.com
 AppLovin,APP,Technology,20696.8,1594,2793.1,35.4,Palo Alto,CA,no,yes,no,yes, ,Adam Foroughi,876,0,https://www.applovin.com
 Waters,WAT,Technology,18783.4,7800,2785.9,692.8,Milford,MA,no,no,no,yes, ,Udit Batra,877,0,https://www.waters.com
-Mutual of America Life Insurance,,Financials,12341,1146,2784.8,50.7,New York,NY,no,no,no,yes, ,John R. Greed,878,0,https://www.mutualofamerica.com
+Mutual of America Life Insurance,dfsfs,Financials,12341,1146,2784.8,50.7,New York,NY,no,no,no,yes, ,John R. Greed,878,0,https://www.mutualofamerica.com
 Hovnanian Enterprises,HOV,Engineering & Construction,371.9,1784,2782.9,607.8,Matawan,NJ,no,no,no,yes, ,Ara K. Hovnanian,879,0,https://www.khov.com
-Amica Mutual Insurance,,Financials,242354,3510,2777.9,117.1,Lincoln,RI,no,no,no,yes, ,Robert A. DiMuccio,880,0,https://www.amica.com
+Amica Mutual Insurance,dfsfs,Financials,242354,3510,2777.9,117.1,Lincoln,RI,no,no,no,yes, ,Robert A. DiMuccio,880,0,https://www.amica.com
 Caleres,CAL,Retailing,727.5,7200,2777.6,137,St. Louis,MO,no,no,yes,yes, ,Diane M. Sullivan,881,0,https://www.caleres.com
 FTI Consulting,FCN,Business Services,5400.1,6780,2776.2,235,Washington,DC,no,no,no,yes, ,Steven H. Gunby,882,0,https://www.fticonsulting.com
 Overstock.com,OSTK,Retailing,1897.8,1350,2773.8,389.4,Midvale,UT,no,no,no,yes, ,Jonathan E. Johnson III,883,0,https://www.overstock.com
@@ -905,7 +905,7 @@ Maxim Integrated Products,MXIM,Technology,24490.9,7100,2632.5,827.3,San Jose,CA,
 Ensign Group,ENSG,Health Care,4958.3,25900,2627.5,194.7,San Juan Capistrano,CA,no,no,no,yes, ,Barry R. Port,904,0,https://www.ensigngroup.net
 SM Energy,SM,Energy,4746.5,506,2622.9,36.2,Denver,CO,no,no,no,yes, ,Herbert S. Vogel,905,0,https://www.sm-energy.com
 Kaiser Aluminum,KALU,Materials,1493.9,3957,2622,-18.5,Foothill Ranch,CA,no,no,no,no, ,Keith A. Harvey,906,0,https://www.kaiseraluminum.com
-Federated Mutual Insurance,,Financials,12445,2702,2612.2,320.1,Owatonna,MN,no,no,no,yes, ,Michael G. Kerr,907,0,https://www.federatedinsurance.com
+Federated Mutual Insurance,dfsfs,Financials,12445,2702,2612.2,320.1,Owatonna,MN,no,no,no,yes, ,Michael G. Kerr,907,0,https://www.federatedinsurance.com
 F5,FFIV,Technology,12691.2,6429,2603.4,331.2,Seattle,WA,no,no,no,yes, ,Fran?ois Locoh-Donou,908,0,https://www.f5.com
 Steelcase,SCS,Household Products,1339.5,11400,2596.2,26.1,Grand Rapids,MI,no,no,yes,yes, ,Sara E. Armbruster,909,0,https://www.steelcase.com
 Encore Wire,WIRE,Industrials,2405,1440,2592.7,541.4,McKinney,TX,no,no,no,yes, ,Daniel Jones,910,0,https://www.encorewire.com
@@ -923,7 +923,7 @@ Curtiss-Wright,CW,Industrials,5771,7800,2505.9,267.2,Davidson,NC,no,no,yes,yes, 
 MYR Group,MYRG,Engineering & Construction,1594.5,7600,2498.3,85,Henderson,CO,no,no,no,yes, ,Richard S. Swartz,922,0,https://www.myrgroup.com
 Kontoor Brands,KTB,Apparel,2325.3,14000,2475.9,195.4,Greensboro,NC,no,no,no,yes, ,Scott H. Baxter,923,0,https://www.kontoorbrands.com
 Liberty Energy,LBRT,Energy,2757.9,3601,2470.8,-179.2,Denver,CO,no,yes,no,no, ,Christopher A. Wright,924,0,https://www.libertyfrac.com
-Knights of Columbus,,Financials,124211,749,2467.5,130.3,New Haven,CT,no,no,no,yes, ,Patrick E. Kelly,925,0,https://www.kofc.org
+Knights of Columbus,dfsfs,Financials,124211,749,2467.5,130.3,New Haven,CT,no,no,no,yes, ,Patrick E. Kelly,925,0,https://www.kofc.org
 AdaptHealth,AHCO,Health Care,2146.6,10700,2465.1,156.2,Plymouth Meeting,PA,no,no,no,yes, ,Stephen P. Griggs,926,0,https://www.adapthealth.com
 MillerKnoll,MLKN,Household Products,2617.7,7600,2465.1,173.1,Zeeland,MI,no,no,yes,yes, ,Andrea R. Owen,927,0,https://www.millerknoll.com
 Equity Residential,EQR,Financials,33802.5,2400,2464,1332.9,Chicago,IL,no,no,no,yes, ,Mark J. Parrell,928,0,https://www.equityapartments.com
@@ -946,7 +946,7 @@ Acadia Healthcare,ACHC,Health Care,5891.3,19200,2376.9,190.6,Franklin,TN,no,no,n
 Alexandria Real Estate Equities,ARE,Financials,32188.6,559,2373.6,571.2,Pasadena,CA,no,no,no,yes, ,Peter M. Moglia,945,0,https://www.are.com
 Nordson,NDSN,Industrials,13157.1,6813,2362.2,454.4,Westlake,OH,no,no,no,yes, ,Sundaram Nagarajan,946,0,https://www.nordson.com
 NewMarket,NEU,Chemicals,3346.7,2104,2356.1,190.9,Richmond,VA,no,no,no,yes, ,Thomas E. Gottwald,947,0,https://www.newmarket.com
-Ohio National Mutual,,Financials,32532,1082,2346.5,-85.2,Cincinnati,OH,no,no,yes,no, ,Barbara Turner,948,0,https://www.ohionational.com
+Ohio National Mutual,dfsfs,Financials,32532,1082,2346.5,-85.2,Cincinnati,OH,no,no,yes,no, ,Barbara Turner,948,0,https://www.ohionational.com
 Stepan,SCL,Chemicals,2215.6,2439,2346,137.8,Northbrook,IL,no,no,no,yes, ,Scott R. Behrens,949,0,https://www.stepan.com
 Valhi,VHI,Chemicals,828.8,2847,2335.4,127.2,Dallas,TX,no,no,no,yes, ,Robert D. Graham,950,0,https://www.valhi.net
 Hilton Grand Vacations,HGV,"Hotels, Restaurants & Leisure",6247.9,13000,2335,176,Orlando,FL,no,no,no,yes, ,Mark D. Wang,951,0,https://www.hgv.com
