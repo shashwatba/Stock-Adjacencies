@@ -82,8 +82,14 @@ def search_stock(event=None):
                                      f"Revenue: {vertex.revenue}\n"
                                      f"Profit: {vertex.profit}")
 
-        # Apply quicksort on similar stocks by similarity score in descending order
-        sorted_similar_stocks = merge_sort(vertex.similar_stocks,vertex)
+        # Apply sort on similar stocks by similarity score in descending order
+        if quick_button.cget('image') == str(blue_img):
+            sorted_similar_stocks = quick_sort(vertex.similar_stocks,vertex) # Worst Case: O(n^2)
+        elif merge_button.cget('image') == str(blue_img):
+            sorted_similar_stocks = merge_sort(vertex.similar_stocks,vertex) # Worst Case: O(nlog(n))
+        else:
+            error_label.config(text="Error: Please select a sorting method", fg="red")
+            return
 
         similar_stocks_string = "\n".join([f"{v.name} ({v.ticker_name}), Similarity Score: {graph.similarity_score(vertex, v)* 100:.2f}%"
                                     for v in sorted_similar_stocks])
@@ -93,7 +99,7 @@ def search_stock(event=None):
         similar_stocks_label.config(text="")
 
     end_time = time.time()
-    time_taken_label.config(text=f"Time taken: {end_time - start_time:.5f} seconds")
+    time_taken_label.config(text=f"Time taken: {end_time - start_time:.10f} seconds")
 
 app = tk.Tk()
 app.title("Stock Info")
@@ -108,14 +114,12 @@ search_button.pack()
 def quick_button_clicked():
     quick_button.config(image=blue_img)
     merge_button.config(image=gray_img)
-    # Do something when 'Quick' button is clicked
-    # ...
+    error_label.config(text="")  # reset the error message
 
 def merge_button_clicked():
     merge_button.config(image=blue_img)
     quick_button.config(image=gray_img)
-    # Do something when 'Merge' button is clicked
-    # ...
+    error_label.config(text="")  # reset the error message
 
 # load images
 blue_img = tk.PhotoImage(file="blue_circle.png")
@@ -125,11 +129,11 @@ gray_img = tk.PhotoImage(file="gray_circle.png")
 blue_img = blue_img.subsample(140, 140)
 gray_img = gray_img.subsample(100, 100)
 
-# create buttons with images
-quick_button = tk.Button(app, image=gray_img, command=quick_button_clicked)
+# create buttons with images and text
+quick_button = tk.Button(app, image=gray_img, text="Quick", compound="left", anchor="w", command=quick_button_clicked)
 quick_button.pack()
 
-merge_button = tk.Button(app, image=gray_img, command=merge_button_clicked)
+merge_button = tk.Button(app, image=gray_img, text="Merge", compound="left", anchor="w", command=merge_button_clicked)
 merge_button.pack()
 
 stock_info_label = tk.Label(app, text="")
@@ -137,6 +141,9 @@ stock_info_label.pack(pady=10)
 
 similar_stocks_label = tk.Label(app, text="")
 similar_stocks_label.pack(pady=10)
+
+error_label = tk.Label(app, text="", fg="red")
+error_label.pack(pady=10)
 
 time_taken_label = tk.Label(app, text="")
 time_taken_label.pack(pady=10)
