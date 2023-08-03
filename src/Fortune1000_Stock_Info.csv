@@ -337,7 +337,7 @@ Caesars Entertainment,CZR,"Hotels, Restaurants & Leisure",16564.6,49000,11110,-1
 Equitable Holdings,EQH,Financials,12041.2,10000,11036,-439,New York,NY,no,no,no,no,244,Mark Pearson,336,-92,https://www.equitableholdings.com
 Advance Auto Parts,AAP,Retailing,12644.8,54500,10998,616.1,Raleigh,NC,no,no,no,yes,301,Thomas R. Greco,337,-36,https://www.advanceautoparts.com
 Biogen,BIIB,Health Care,30950.4,9610,10981.7,1556.1,Cambridge,MA,no,no,no,yes,228,Michel Vounatsos,338,-110,https://www.biogen.com
-Auto-Owners Insurance,dfsfs,Financials,892344,6441,10980.2,1318.4,Lansing,MI,no,no,no,yes,341,Jeffrey S. Tagsold,339,2,https://www.auto-owners.com
+Auto-Owners Insurance,DFSA,Financials,892344,6441,10980.2,1318.4,Lansing,MI,no,no,no,yes,341,Jeffrey S. Tagsold,339,2,https://www.auto-owners.com
 Booking Holdings,BKNG,Technology,96022.7,20199,10958,1165,Norwalk,CT,no,no,no,yes,424,Glenn D. Fogel,340,84,https://www.bookingholdings.com
 Amphenol,APH,Technology,45130.1,90000,10876.3,1590.8,Wallingford,CT,no,no,no,yes,349,R. Adam Norwitt,341,8,https://www.amphenol.com
 Quest Diagnostics,DGX,Health Care,16348.6,44500,10788,1995,Secaucus,NJ,no,no,no,yes,324,James E. Davis,342,-18,https://www.questdiagnostics.com
@@ -416,7 +416,7 @@ CenterPoint Energy,CNP,Energy,19285.8,9418,8352,1486,Houston,TX,no,no,no,yes,342
 Fifth Third Bancorp,FITB,Financials,29511.3,19112,8329,2770,Cincinnati,OH,no,no,no,yes,358,Timothy N. Spence,415,-57,https://www.53.com
 WEC Energy Group,WEC,Energy,31483.5,6938,8316,1300.3,Milwaukee,WI,no,no,no,yes,400,Scott J. Lauber,416,-16,https://www.wecenergygroup.com
 S&P Global,SPGI,Business Services,142343.5,22850,8297,3024,New York,NY,no,no,no,yes,393,Douglas L. Peterson,417,-24,https://www.spglobal.com
-FM Global,dfsfs,Financials,837472,5560,8274.6,2842.4,Johnston,RI,no,no,no,yes,423,Malcolm C. Roberts,418,5,https://www.fmglobal.com
+FM Global,SACK,Financials,837472,5560,8274.6,2842.4,Johnston,RI,no,no,no,yes,423,Malcolm C. Roberts,418,5,https://www.fmglobal.com
 Polaris,PII,Transportation,6264.1,16000,8252,493.9,Medina,MN,no,no,no,yes,407,Michael T. Speetzen,419,-12,https://www.polaris.com
 Williams-Sonoma,WSM,Retailing,10376,16600,8245.9,1126.3,San Francisco,CA,no,no,yes,yes,425,Laura J. Alber,420,5,https://www.williams-sonomainc.com
 Autoliv,ALV,Motor Vehicles & Parts,6691.1,58176,8230,435,Auburn Hills,MI,no,no,no,yes,392,Mikael Bratt,421,-29,https://www.autoliv.com
@@ -688,7 +688,7 @@ Paychex,PAYX,Business Services,49268,15000,4056.8,1097.5,Rochester,NY,no,no,no,y
 Atlas Air Worldwide Holdings,AAWW,Transportation,2523.4,4056,4030.8,493.3,Purchase,NY,no,no,no,yes, ,John W. Dietrich,687,0,https://www.atlasairworldwide.com
 Bright Health Group,BHG,Health Care,1213.5,3203,4029.4,-1184.9,Minneapolis,MN,no,no,no,no, ,G. Mike Mikan,688,0,https://www.brighthealthcare.com
 Peloton Interactive,PTON,"Hotels, Restaurants & Leisure",8760.9,8662,4021.8,-189,New York,NY,no,no,no,no, ,Barry McCarthy,689,0,https://www.onepeloton.com
-Country Financial,dfsfs,Financials,523532,3149,4016.2,419.2,Bloomington,IL,no,no,no,yes, ,Jim Jacobs,690,0,https://www.countryfinancial.com
+Country Financial,JDIV,Financials,523532,3149,4016.2,419.2,Bloomington,IL,no,no,no,yes, ,Jim Jacobs,690,0,https://www.countryfinancial.com
 Qorvo,QRVO,Technology,13456.4,8750,4015.3,733.6,Greensboro,NC,no,no,no,yes, ,Robert A. Bruggeworth,691,0,https://www.qorvo.com
 Catalent,CTLT,Health Care,13377,17300,3998,585,Somerset,NJ,no,no,no,yes, ,Alessandro Maselli,692,0,https://www.catalent.com
 Mercury General,MCY,Financials,3045.4,4300,3993.4,247.9,Los Angeles,CA,no,no,no,yes, ,Gabriel Tirador,693,0,https://www.mercuryinsurance.com
@@ -773,7 +773,7 @@ Boyd Gaming,BYD,"Hotels, Restaurants & Leisure",7234,15114,3369.8,463.8,Las Vega
 Plexus,PLXS,Technology,2298.6,19200,3368.9,138.9,Neenah,WI,no,no,no,yes, ,Todd P. Kelsey,772,0,https://www.plexus.com
 ScanSource,SCSC,Wholesalers,890.8,2200,3364.2,10.8,Greenville,SC,no,yes,no,yes, ,Michael L. Baur,773,0,https://www.scansource.com
 Franchise Group,FRG,Retailing,1669.6,11895,3362.7,363.8,Delaware,OH,no,no,no,yes, ,Brian R. Kahn,774,0,https://www.franchisegrp.com
-NLV Financial,dfsfs,Financials,543636,1157,3350.8,392.1,Montpelier,VT,no,no,no,yes, ,Mehran Assadi,775,0,https://www.nationallife.com
+NLV Financial,YTZY,Financials,543636,1157,3350.8,392.1,Montpelier,VT,no,no,no,yes, ,Mehran Assadi,775,0,https://www.nationallife.com
 CrossAmerica Partners,CAPL,Energy,826.5,2218,3350.5,21.7,Allentown,PA,no,no,no,yes, ,Charles M. Nifong Jr.,776,0,https://www.crossamericapartners.com
 Mr. Cooper Group,COOP,Financials,3369.4,8200,3344,1454,Coppell,TX,no,no,no,yes, ,Jay Bray,777,0,https://www.mrcoopergroup.com
 Fortinet,FTNT,Technology,39789,10195,3342.2,606.8,Sunnyvale,CA,no,yes,no,yes, ,Ken Xie,778,0,https://www.fortinet.com

@@ -1,12 +1,5 @@
 from AdjacencyList import *
 
-
-import tkinter as tk
-from tkinter.font import Font
-import time
-
-
-
 # Initialize the graph
 graph = Graph()
 
@@ -24,15 +17,13 @@ for index, row in df.iterrows():
 # Create edges based on similarity score
 graph.create_edges()
 
-
 def search_stock(event=None):
     start_time = time.time()
     query = search_entry.get().upper()
 
     if query in stock_data:
         vertex = stock_data[query]
-        stock_info_label.config(text=f"Stock: {vertex.name}\n"
-                                     f"Ticker: {vertex.ticker_name}\n"
+        stock_info_label.config(text=f"Company Name: {vertex.name}\n"
                                      f"Sector: {vertex.sector}\n"
                                      f"Market Cap: {vertex.market_cap}\n"
                                      f"Employee Count: {vertex.employee_count}\n"

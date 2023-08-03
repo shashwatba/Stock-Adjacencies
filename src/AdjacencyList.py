@@ -1,6 +1,9 @@
 import csv
 import pandas as pd
 import numpy as np
+import tkinter as tk
+from tkinter.font import Font
+import time
 
 class Vertex:
     def __init__(self, name, ticker_name, sector, market_cap, employee_count, revenue, profit):
@@ -13,8 +16,6 @@ class Vertex:
         self.profit = profit
         self.similar_stocks = []
 
-    def __str__(self):
-        return f"{self.name} ({self.ticker_name})"
 
 class Graph:
     def __init__(self):
@@ -71,21 +72,3 @@ class Graph:
             for v2 in self.adjacency_list.values():
                 if v1 != v2 and self.similarity_score(v1, v2)>0.50:
                     self.add_edge(v1.name, v2.name)
-
-    def find_and_display_vertex(self, ticker_name):
-        for vertex in self.adjacency_list.values():
-            if vertex.ticker_name == ticker_name:
-                print(f"\nUser-Selected Stock: {vertex.name} ({vertex.ticker_name})")
-
-                # Compute similarity scores for all similar stocks
-                similar_scores = []
-                for similar_vertex in vertex.similar_stocks:
-                    score = self.similarity_score(vertex, similar_vertex)
-                    similar_scores.append((similar_vertex, score))
-
-                # Sort by similarity score in descending order
-                similar_scores.sort(key=lambda x: x[1], reverse=True)
-
-                # Print results
-                for similar_vertex, score in similar_scores:
-                    print(f"  Similar Stock: {similar_vertex.name} ({similar_vertex.ticker_name}), Similarity Score: {score:.2%}")
