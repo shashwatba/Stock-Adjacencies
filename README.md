@@ -29,4 +29,4 @@ Each individual score ranges from 0 to 1. Here's how you calculate each one:
     - For anything in between, calculate the score as `1 - (Absolute Difference in Profit / Company with Higher Profit)`.
 
 Then, you can add up the scores for each criterion, weighted according to their importance in your analysis, to get the total Similarity Score.
-If the Similarity Score >= 0.5, you might consider the stocks to be "similar". (We can make this number smaller or larger later on but for now I feel like this is good)
+If the Similarity Score >= 0.5, you might consider the stocks to be "similar".
