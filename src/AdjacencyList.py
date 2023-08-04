@@ -16,7 +16,6 @@ class Vertex:
         self.profit = profit
         self.similar_stocks = []
 
-
 class Graph:
     def __init__(self):
         self.adjacency_list = {}

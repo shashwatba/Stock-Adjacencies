@@ -9,7 +9,7 @@ df = pd.read_csv('Fortune1000_Stock_Info.csv')
 # Iterate over each row in the DataFrame
 for index, row in df.iterrows():
     vertex = Vertex(row['Company'], row['Ticker'], row['Sector'], float(row['Market Cap']),
-                    int(row['num. of employees']), float(row['revenue']), float(row['profit']))
+                    float(row['num. of employees']), float(row['revenue']), float(row['profit']))
     graph.add_vertex(vertex)
 
 # Create edges based on similarity score
@@ -68,19 +68,23 @@ def quick_sort(arr, vertex):
     else:
         return arr
 
+allow_scroll = False  # global flag variable
 
 def search_stock(event=None):
     start_time = time.time()
+
+    global allow_scroll
+
     query = search_entry.get().upper()
 
     if query in graph.adjacency_list:
         vertex = graph.adjacency_list[query]
-        stock_info_label.config(text=f"Company Name: {vertex.name}\n"
+        stock_info_label.config(text=f"Company Name: {vertex.name}\n" #added commas to separate number values, also some numbers were shortened in the csv file so printing full values (converted to int so no ".0" at the end)
                                      f"Sector: {vertex.sector}\n"
-                                     f"Market Cap: {vertex.market_cap}\n"
-                                     f"Employee Count: {vertex.employee_count}\n"
-                                     f"Revenue: {vertex.revenue}\n"
-                                     f"Profit: {vertex.profit}")
+                                     f"Market Cap: ${int(vertex.market_cap*1000000):,}\n"
+                                     f"Yearly Revenue: ${int(vertex.revenue*1000000):,}\n"
+                                     f"Yearly Profit: ${int(vertex.profit*1000000):,}\n"
+                                     f"Employee Count: {int(vertex.employee_count):,}\n")
 
         # Apply sort on similar stocks by similarity score in descending order
         if quick_button.cget('image') == str(blue_img):
@@ -98,18 +102,68 @@ def search_stock(event=None):
         stock_info_label.config(text="Stock not found!")
         similar_stocks_label.config(text="")
 
+    allow_scroll = True
     end_time = time.time()
     time_taken_label.config(text=f"Time taken: {end_time - start_time:.10f} seconds")
 
 app = tk.Tk()
-app.title("Stock Info")
-app.geometry("400x400")
+app.title("Triumph Trading")
+app.geometry("400x600")
 
-search_entry = tk.Entry(app, width=30)
+# Set up the scrolling frame
+canvas = tk.Canvas(app, borderwidth=0, background="#ffffff")
+frame = tk.Frame(canvas, background="#ffffff")
+vsb = tk.Scrollbar(app, orient="vertical", command=canvas.yview)
+canvas.configure(yscrollcommand=vsb.set)
+
+vsb.pack(side="right", fill="y")
+canvas.pack(fill="both", expand=True)
+canvas.create_window((200,300), window=frame, anchor="center")
+
+def onFrameConfigure(canvas):
+    # Reset the scroll region to encompass the inner frame
+    canvas.after_idle(lambda: canvas.configure(scrollregion=canvas.bbox("all")))
+
+frame.bind("<Configure>", lambda event, canvas=canvas: onFrameConfigure(canvas))
+
+# Create a container frame that will expand and fill its parent
+container_outer = tk.Frame(frame, background="#ffffff")
+container_outer.pack(side="top", fill="both", expand=True)
+
+# Create another frame that will hold your widgets
+container = tk.Frame(container_outer, background="#ffffff")
+
+# Pack the container in its parent (it will center automatically)
+container.pack()
+
+# Modify the scroll handlers to check the flag
+def _on_mousewheel(event):
+    global allow_scroll
+    if allow_scroll:
+        canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+
+def _on_unix_scroll(event):
+    global allow_scroll
+    if allow_scroll:
+        if event.num == 4:
+            canvas.yview_scroll(-1, "units")
+        elif event.num == 5:
+            canvas.yview_scroll(1, "units")
+
+
+app.bind_all("<MouseWheel>", _on_mousewheel)
+app.bind_all("<Button-4>", _on_unix_scroll)
+app.bind_all("<Button-5>", _on_unix_scroll)
+
+
+# We use padx and pady to give some space around the widgets
+search_entry = tk.Entry(container, width=30)
 search_entry.pack(pady=10)
+search_entry.bind('<Return>', search_stock)
 
-search_button = tk.Button(app, text="Search", command=search_stock)
-search_button.pack()
+
+search_button = tk.Button(container, text="Search", command=search_stock)
+search_button.pack(pady=10)
 
 def quick_button_clicked():
     quick_button.config(image=blue_img)
@@ -129,25 +183,28 @@ gray_img = tk.PhotoImage(file="gray_circle.png")
 blue_img = blue_img.subsample(140, 140)
 gray_img = gray_img.subsample(100, 100)
 
-# create buttons with images and text
-quick_button = tk.Button(app, image=gray_img, text="Quick", compound="left", anchor="w", command=quick_button_clicked)
-quick_button.pack()
+# Quick Button
+quick_button = tk.Button(container, image=gray_img, text="Quick", compound="left", anchor="w", command=quick_button_clicked)
+quick_button.pack(pady=10)
 
-merge_button = tk.Button(app, image=gray_img, text="Merge", compound="left", anchor="w", command=merge_button_clicked)
-merge_button.pack()
+# Merge Button
+merge_button = tk.Button(container, image=gray_img, text="Merge", compound="left", anchor="w", command=merge_button_clicked)
+merge_button.pack(pady=10)
 
-stock_info_label = tk.Label(app, text="")
+# Stock Info Label
+stock_info_label = tk.Label(container, bg="white")
 stock_info_label.pack(pady=10)
 
-similar_stocks_label = tk.Label(app, text="")
+# Similar Stocks Label
+similar_stocks_label = tk.Label(container, bg="white")
 similar_stocks_label.pack(pady=10)
 
-error_label = tk.Label(app, text="", fg="red")
+# Error Label
+error_label = tk.Label(container, bg="white")
 error_label.pack(pady=10)
 
-time_taken_label = tk.Label(app, text="")
+# Time Taken Label
+time_taken_label = tk.Label(container, bg="white")
 time_taken_label.pack(pady=10)
-
-search_entry.bind("<Return>", search_stock)
 
 app.mainloop()
