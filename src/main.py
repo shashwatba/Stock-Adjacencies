@@ -136,6 +136,10 @@ container = tk.Frame(container_outer, background="#ffffff")
 # Pack the container in its parent (it will center automatically)
 container.pack()
 
+# Add a label for the company name "Triumph Trading"
+company_name_label = tk.Label(container, text="Triumph Trading", font=("Helvetica", 16, "bold"), fg="gold", bg="gray")
+company_name_label.pack(pady=10)
+
 # Modify the scroll handlers to check the flag
 def _on_mousewheel(event):
     global allow_scroll
