@@ -111,8 +111,8 @@ app.title("Triumph Trading")
 app.geometry("400x600")
 
 # Set up the scrolling frame
-canvas = tk.Canvas(app, borderwidth=0, background="#ffffff")
-frame = tk.Frame(canvas, background="#ffffff")
+canvas = tk.Canvas(app, borderwidth=0, background="gray")  # changing the canvas background to gray
+frame = tk.Frame(canvas, background="gray")  # changing the frame background to gray
 vsb = tk.Scrollbar(app, orient="vertical", command=canvas.yview)
 canvas.configure(yscrollcommand=vsb.set)
 
@@ -127,17 +127,17 @@ def onFrameConfigure(canvas):
 frame.bind("<Configure>", lambda event, canvas=canvas: onFrameConfigure(canvas))
 
 # Create a container frame that will expand and fill its parent
-container_outer = tk.Frame(frame, background="#ffffff")
+container_outer = tk.Frame(frame, background="gray")  # changing the outer container background to gray
 container_outer.pack(side="top", fill="both", expand=True)
 
 # Create another frame that will hold your widgets
-container = tk.Frame(container_outer, background="#ffffff")
+container = tk.Frame(container_outer, background="gray")  # changing the inner container background to gray
 
 # Pack the container in its parent (it will center automatically)
 container.pack()
 
 # Add a label for the company name "Triumph Trading"
-company_name_label = tk.Label(container, text="Triumph Trading", font=("Helvetica", 16, "bold"), fg="gold", bg="gray")
+company_name_label = tk.Label(container, text="Triumph Trading", font=("Helvetica", 16, "bold"), fg="yellow", bg="gray")
 company_name_label.pack(pady=10)
 
 # Modify the scroll handlers to check the flag
@@ -196,19 +196,19 @@ merge_button = tk.Button(container, image=gray_img, text="Merge", compound="left
 merge_button.pack(pady=10)
 
 # Stock Info Label
-stock_info_label = tk.Label(container, bg="white")
+stock_info_label = tk.Label(container, bg="gray")
 stock_info_label.pack(pady=10)
 
 # Similar Stocks Label
-similar_stocks_label = tk.Label(container, bg="white")
+similar_stocks_label = tk.Label(container, bg="gray")
 similar_stocks_label.pack(pady=10)
 
 # Error Label
-error_label = tk.Label(container, bg="white")
+error_label = tk.Label(container, bg="gray")
 error_label.pack(pady=10)
 
 # Time Taken Label
-time_taken_label = tk.Label(container, bg="white")
+time_taken_label = tk.Label(container, bg="gray")
 time_taken_label.pack(pady=10)
 
 app.mainloop()
