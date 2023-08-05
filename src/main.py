@@ -50,7 +50,7 @@ def merge(left, right, vertex):
     return merged
 
 def quick_sort(arr, vertex):
-    """Implementing QuickSort Algorithm to sort the array in descending order"""
+    #Implementing QuickSort Algorithm to sort the array in descending order
     less = []
     equal = []
     greater = []

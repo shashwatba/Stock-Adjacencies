@@ -1,7 +1,5 @@
 # Triumph-Trading
 
-Note: All the data you need should be in columns A-G, anything after can be disregarded but don't delete it because we need it in the file to satisfy the 18,000 data points
-
 Similarity Score =(Sector Similarity Score * 0.2) + (Market Cap Similarity Score * 0.2) + (Employee Similarity Score * 0.2) + (Revenue Similarity Score * 0.2) + (Profit Similarity Score * 0.2)
 
 Each individual score ranges from 0 to 1. Here's how you calculate each one:
