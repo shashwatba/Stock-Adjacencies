@@ -1,4 +1,4 @@
-# Stock-Adjacencies
+# Triumph Trading
 
 Similarity Score =(Sector Similarity Score * 0.2) + (Market Cap Similarity Score * 0.2) + (Employee Similarity Score * 0.2) + (Revenue Similarity Score * 0.2) + (Profit Similarity Score * 0.2)
 
